@@ -2,17 +2,28 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>博客 on 我的个人博客</title>
-    <link>http://localhost:1313/</link>
+    <link>https://chaohongguo.github.io/</link>
     <description>Recent content in 博客 on 我的个人博客</description>
     <generator>Hugo -- 0.157.0</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Fri, 06 Mar 2026 11:33:04 +0800</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 14 Jul 2026 16:22:55 +0800</lastBuildDate>
+    <atom:link href="https://chaohongguo.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Attention Notes</title>
+      <link>https://chaohongguo.github.io/attention-notes/</link>
+      <pubDate>Tue, 14 Jul 2026 16:22:55 +0800</pubDate>
+      <guid>https://chaohongguo.github.io/attention-notes/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;公式解析：&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;该目标函数通过 &lt;code&gt;clip&lt;/code&gt; 操作，将新旧策略的比率 $r_t(\theta)$ 限制在 $[1-\epsilon, 1+\epsilon]$ 的区间内。&lt;/li&gt;
+&lt;li&gt;取最小值 &lt;code&gt;min&lt;/code&gt; 的操作确保了策略更新不会过于激进，从而保证了训练的稳定性。&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
     <item>
       <title>Test Post</title>
-      <link>http://localhost:1313/my-first-post/</link>
+      <link>https://chaohongguo.github.io/my-first-post/</link>
       <pubDate>Fri, 06 Mar 2026 11:33:04 +0800</pubDate>
-      <guid>http://localhost:1313/my-first-post/</guid>
+      <guid>https://chaohongguo.github.io/my-first-post/</guid>
       <description>&lt;h3 id=&#34;1-transformer-的核心缩放点积注意力机制-scaled-dot-product-attention&#34;&gt;1. Transformer 的核心：缩放点积注意力机制 (Scaled Dot-Product Attention)&lt;/h3&gt;
 &lt;p&gt;在目前主流的大语言模型和多模态模型中，自注意力机制是让模型理解上下文特征交互的关键。它的核心公式极其简洁：&lt;/p&gt;
 &lt;p&gt;$$Attention(Q, K, V) = \text{softmax}\left(\frac{QK^T}{\sqrt{d_k}}\right)V$$&lt;/p&gt;
